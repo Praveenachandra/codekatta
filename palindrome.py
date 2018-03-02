@@ -8,4 +8,4 @@ while(n>0):
 if(temp==rev):
     print("yes")
 else:
-    print("not")
+    print("no")
