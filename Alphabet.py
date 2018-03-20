@@ -1,6 +1,7 @@
 char = raw_input("")
+char = char.lower()
 
-if ((char>="a" and char<="z") or(char>="A" and char<="Z")):
+if (char>="a" and char<="z"):
 
     print char, "is a alphabet"
 
