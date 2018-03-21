@@ -10,3 +10,5 @@ for i in range(a,b+1):
         temp//=10
     if (i==sum):
         print i
+else:
+    print("none")
