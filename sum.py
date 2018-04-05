@@ -1,5 +1,6 @@
 a=raw_input("")
-b=raw_input("")
+a=map(int,a.split(" "))
 sum=0
-sum=int(a)+int(b)
+for i in (a):
+    sum=sum+i
 print sum
