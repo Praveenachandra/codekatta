@@ -1,0 +1,5 @@
+n=raw_input("")
+k=raw_input("")
+s=raw_input("")
+s=map(int,s.split(" "))
+print sum(s[:int(k)])
