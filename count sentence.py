@@ -1,2 +1,3 @@
-a=raw_input("")
-print a.count('.')
+s=raw_input("")
+s=len(s.split("."))
+print s
