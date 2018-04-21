@@ -5,3 +5,6 @@ l=map(int,l.split(" "))
 for i in l:
     if(i==int(k)):
         print "Yes"
+        break
+else:
+    print"No"
